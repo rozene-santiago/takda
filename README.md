@@ -1,6 +1,6 @@
 # DLSU-D TAKDÁ Class Scheduler
 
-> **Start here:** [RUNABLE.md](RUNABLE.md) (running on Runable) · [SELF-HOSTING.md](SELF-HOSTING.md) (your own PC or server) · [RENDER.md](RENDER.md) (online with Render + Turso, free) · [GITHUB-PAGES.md](GITHUB-PAGES.md) (browser-only version on GitHub Pages).
+> **Start here:** [RUNABLE.md](RUNABLE.md) (running on Runable) · [SELF-HOSTING.md](SELF-HOSTING.md) (your own PC or server) · [RENDER.md](RENDER.md) (online with Render + Turso, free).
 > The notes below are from the original Runable template.
 
 

@@ -11,10 +11,19 @@ Things to know about the free plan:
   Turso, not on Render.
 - The repository on GitHub can stay **private**.
 
-You need the code on GitHub first. See GITHUB-PAGES.md, steps 1–4. Skip the
-Pages part, and you may keep **Keep this code private** ticked. If you don't use
-GitHub Pages, turn off its automatic build so it doesn't fail on every update:
-on GitHub, open **Actions** → **Deploy to GitHub Pages** → **⋯** → **Disable workflow**.
+## 0. Put the code on GitHub (no command line)
+
+Render builds the app from a GitHub repository.
+
+1. Create a free account at https://github.com and install **GitHub Desktop**
+   (https://desktop.github.com). Sign in to it.
+2. Unzip the source zip, for example to `C:\ZENE_CODING\TAKDA\github\class-scheduler`.
+   Keep this copy separate from the folder the Windows scheduler runs in.
+3. In GitHub Desktop: **File → Add local repository…** and choose that
+   `class-scheduler` folder. When it says the folder isn't a Git repository,
+   click **create a repository**, name it `takda`, then **Create repository**.
+4. Click **Publish repository**. Leave **Keep this code private** ticked, then
+   **Publish repository**.
 
 ## 1. Create the database (Turso)
 
@@ -74,9 +83,10 @@ after copying from it, create the admin as in step 3.
 
 ## Updating
 
-Push the new code to GitHub (GitHub Desktop: **Commit to main**, then
-**Push origin**). Render rebuilds and redeploys by itself. Your data stays
-in Turso.
+Unzip the new source over `C:\ZENE_CODING\TAKDA\github\class-scheduler`
+(replace the files). In GitHub Desktop, type a short summary, click
+**Commit to main**, then **Push origin**. Render rebuilds and redeploys by
+itself. Your data stays in Turso.
 
 ## Backups
 
