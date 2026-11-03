@@ -1,0 +1,9 @@
+services:
+  scheduler:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "4200:4200"
+    volumes:
+      # The whole schedule database lives in this folder. Back it up!
+      - ./data:/app/packages/web/data

@@ -1,0 +1,18 @@
+# Render Blueprint: Dashboard > New > Blueprint, then pick this repository.
+# The data lives in a Turso database (free plan), so nothing is lost when the
+# free web service sleeps or restarts. See RENDER.md.
+services:
+  - type: web
+    name: takda
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_AUTH_TOKEN
+        sync: false
+      - key: PORT
+        value: "10000"

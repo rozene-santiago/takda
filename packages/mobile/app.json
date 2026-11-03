@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.zensched_k7q2.runable",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-fg.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "apiUrl": "https://zensche-8j4rwbf-preview-4200.runable.site/",
+      "applicationId": "zensche-8j4rwbf",
+      "runableAuthIssuer": "https://api.runable.com/api/auth"
+    },
+    "ios": {
+      "bundleIdentifier": "com.zensched_k7q2.runable",
+      "supportsTablet": true
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#DCEAE3"
+    },
+    "name": "DLSU-D TAKDÁ",
+    "slug": "zensched",
+    "version": "2.01",
+    "scheme": "runable-zensche-8j4rwbf",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
